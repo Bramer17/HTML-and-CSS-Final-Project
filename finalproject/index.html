@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="stress relief" />
+    <meta name="keywords" content="stress relief"/>
+    <title>Stress Relief</title>
+    <link rel="stylesheet" href="css/index.css" media="all"/>
+    <link rel="stylesheet" href="css/myprint.css" media="print"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+</head>
+<body class="row">
+    <header>        
+        <div class="col-1 noprint">
+            <p style="font-size:2em;cursor:pointer;" onclick="openNav()">&#9776;</p>
+        </div>
+    </header>
+    <article id="main">
+    <section class="col-10 col-m-12">   
+        <h1 style="font-size:3em;">Stress Relief Ideas</h1>          
+        <p style="font-size:2em;">When stress overwhelms your nervous system, your body is flooded with chemicals that prepare you for fight or flight. 
+        This stress response can be lifesaving in emergency situations where you need to act quickly. 
+        But when it is constantly activated by the stresses of everyday life, it can wear your body down and take a toll on your emotional and physical health. 
+        This website includes many different methods to relieve stress such as yoga, calming music, and helpful apps.</p> <cite>https://www.helpguide.org/articles/stress/relaxation-techniques-for-stress-relief.htm/</cite>     
+    </section>      
+<nav id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="yoga.html">yoga</a>
+        <a href="Calming-sounds.html">Calming sounds</a>
+        <a href="apps.html">Stress Relief Apps</a>
+        <a href="Contacts.html">Contact</a>
+</nav>
+<div id="noprint">
+    <script>
+        function openNav(){
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+        }
+        function closeNav(){
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+        }
+    </script>
+</div>
+</article>
+<footer class="col-12 icon-bar">
+    <a class="active" href="http://lisabalbach.com/"><i class="fa fa-home"></i></a> 
+    <a href="https://www.pinterest.com"><i class="fa fa-pinterest"></i></a> 
+    <a href="https://www.linkedin.com/feed/"><i class="fa fa-linkedin-square"></i></a> 
+    <a href="https://www.youtube.com"><i class="fa fa-youtube"></i></a>
+    <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a> 
+    <p style="text-align:right;"><small>&copy; Payton Bramer April 18, 2019.<br/>
+            Last update April 19, 2019</small></p>    
+</footer>
+</body>
+</html>
